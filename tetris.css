@@ -1,0 +1,31 @@
+body {
+  background: #000;
+  color: #fff;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-container {
+  text-align: center;
+}
+
+canvas {
+  border: 2px solid #fff;
+  background-color: #111;
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.score-board {
+  margin-top: 10px;
+}
